@@ -1,0 +1,38 @@
+.cart-component
+{
+    display: flex;
+    background-color: white;
+     width: 500px;
+     justify-content: space-between;
+   margin-top: 30px;
+   border: 1px solid lightgray;
+   border-radius: 15px;
+   margin-left: 5px;
+   margin-bottom: 20px;
+   padding: 20px;
+   
+    
+}
+.cart-component >img
+{
+    flex:0 0 20%;
+    height:300px;
+   
+
+}
+
+.product-detail
+{
+    display: flex;
+    flex-direction: column;
+}
+.product-rate
+{
+    display:flex;
+}
+.cart-componant>button
+{
+   
+    width: 1%;
+
+}

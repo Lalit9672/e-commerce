@@ -1,0 +1,39 @@
+
+.edit-products
+{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    border: 1px solid black;
+}
+.edit-product-field
+{
+ display: flex;   
+justify-content: space-evenly;
+text-align: center;
+align-items: center;
+
+}
+.edit-product-info
+{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+}
+/* .product-info>.no,.operation
+{
+    flex:  0 0 10%;
+}
+.product-info>.name
+{
+ flex:0 0 30%;
+}
+.product-field>.no,.operation
+{
+    flex:  0 0 15%;
+}
+.product-field>.name
+{
+flex: 0 0 30%;
+} */

@@ -1,0 +1,32 @@
+.product-card
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-color: #f2f2f2;
+    padding: 20px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+}
+.product-rating
+{
+    display: flex;
+
+}
+.product-image
+{
+    padding: 10px;
+}
+.product-image img
+{
+    border-radius: 10px;
+    height: 250px;
+    
+}
+button
+{
+    
+    background: #f0c14b;
+}

@@ -1,0 +1,46 @@
+.retail
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height:fit-content;
+    
+   
+
+}
+
+.retail-photo
+{
+display: flex;
+align-items: center;
+
+}
+.retail-photo>img 
+{
+   height: fit-content;
+   width: 300px;
+}
+
+.retail-form
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.retailer-info
+{
+    width: 60%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.retail>button
+{
+ width: 40%;
+padding: 20px;
+color: white;
+background-color: gray;
+align-self: center;
+
+}
+

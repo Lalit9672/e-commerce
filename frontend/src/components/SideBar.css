@@ -1,0 +1,47 @@
+
+
+.main
+{
+    flex: 0 0 100%;
+    position: absolute;
+    padding: 25px 10px; 
+    display: flex;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    height: 100vh;
+    align-self: flex-start;
+    flex-direction: 0.33;
+    border-right: 1px solid rgb(187, 164, 164);
+
+}
+
+
+.sidebar
+{
+    
+    display: flex;
+    flex: 0 0 30%;
+    flex-direction: column;
+}
+.sidebar-address
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+outline-width: 0;
+}
+
+.sidebar-address>:hover
+{
+    cursor: pointer;
+    color: #000080;
+}
+:Link
+{
+    text-decoration: none;
+    color: black;
+}
+

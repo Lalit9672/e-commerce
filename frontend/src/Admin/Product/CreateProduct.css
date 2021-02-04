@@ -1,0 +1,57 @@
+.create
+{
+    flex: 1;
+   background-color: #eff2f5;
+   
+    height: 100vh;
+    
+}
+.create-product
+{
+    display:flex;
+    flex:1;
+    height: 100%;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.image
+{
+  margin-top: 8px;
+
+  
+}
+.image >input
+{
+    background-color: rgb(94, 80, 80);
+}
+
+.name,.description,.image,.price,.stock
+{
+    display:flex;
+    flex-direction: column;
+}
+
+img
+{
+ height: 50px;
+ width: 250px;   
+}
+
+form
+{
+    flex: .3;
+}
+
+.category
+{
+    display:flex;
+    flex-direction:column;
+    flex:.5;
+}
+.category select
+{
+    height: 4vh;
+    padding:2px;
+}

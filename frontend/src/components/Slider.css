@@ -1,0 +1,9 @@
+.slider
+{
+    width: 100%;
+    height: fit-content;
+}
+.slider img
+{
+    height: 50vh;
+}

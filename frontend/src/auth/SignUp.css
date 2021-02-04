@@ -1,0 +1,29 @@
+.form
+
+{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.form>input
+{
+    margin-bottom: 10px;
+    height: 20px;
+}
+.email,.password,.mno,.name
+{
+    display: flex;
+     flex-direction: column;
+}
+.checkbox
+{
+    display: flex;
+    
+}
+

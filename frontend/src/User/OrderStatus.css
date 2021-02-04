@@ -1,0 +1,57 @@
+.order-main
+{
+   
+    border:black;
+    border-radius:2px solid black ;
+    
+
+}
+.order-success-img
+{
+    display:flex;
+  
+    text-align:center;
+    justify-content:center;
+
+
+}
+
+.order-success-img>img
+{
+
+  
+    height:250px;
+    flex-grow: 2;
+    
+}
+.order-info
+{
+    text-align: center;
+    justify-content: center;
+  
+    
+
+
+}
+.order-detail
+{
+    padding:20px;
+    display:flex;
+  
+    
+
+
+}
+.order-img>img
+{
+    height:50px;
+    align-items:center;
+   
+
+}
+button
+{
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+}
